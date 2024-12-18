@@ -1,7 +1,7 @@
 # package imports
-from dash import Dash, html, page_container
-import dash_bootstrap_components as dbc
-import dash
+from dash import Dash, html, page_container # type: ignore
+import dash_bootstrap_components as dbc # type: ignore
+import dash # type: ignore
 
 
 app = Dash(

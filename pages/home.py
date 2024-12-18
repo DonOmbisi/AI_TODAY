@@ -37,7 +37,7 @@ layout = dbc.Container(
                         ),
                         html.Hr(),
                         dcc.Markdown(
-                            '##### Under development to join the <dccLink href="https://charming-data.circle.so/home " children="Charming Data Community" /> February Project initiative \n',
+                            '##### Access my link <dccLink href="https://don-michael.vercel.app/ " children="https://don-michael.vercel.app/" /> February Project initiative \n',
                             dangerously_allow_html=True,
                         ),
                     ],

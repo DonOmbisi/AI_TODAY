@@ -5,8 +5,8 @@ import dash
 
 # import plotly.express as px
 # import pandas as pd
-from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
-from langchain_openai import ChatOpenAI, OpenAI
+from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent # type: ignore
+from langchain_openai import ChatOpenAI, OpenAI # type: ignore
 
 # local imports
 from components.get_components_page3 import get_components_page3

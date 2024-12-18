@@ -1,6 +1,6 @@
 # package imports
 import os
-from dotenv import load_dotenv
+from dotenv import load_dotenv # type: ignore
 
 
 def getEnvVar():

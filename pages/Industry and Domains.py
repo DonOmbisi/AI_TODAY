@@ -2,8 +2,8 @@
 import dash_bootstrap_components as dbc
 from dash import Input, Output, dcc, html, callback, State, ctx
 import dash
-from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
-from langchain_openai import ChatOpenAI, OpenAI
+from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent # type: ignore
+from langchain_openai import ChatOpenAI, OpenAI # type: ignore
 
 # local imports
 from components.get_components_page2 import get_components_page2
